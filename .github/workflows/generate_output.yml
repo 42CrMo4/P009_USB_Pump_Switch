@@ -64,7 +64,7 @@ jobs:
   Fabrication:
     name: Fabrication files
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad6_auto:1.5.1
+    container: ghcr.io/inti-cmnb/kicad6_auto:1.6.2
     # needs: ERC
 
     steps:
