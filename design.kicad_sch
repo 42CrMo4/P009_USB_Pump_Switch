@@ -6,7 +6,6 @@
 
   (title_block
     (title "<<ID>>_<<project_name>>")
-    (date "<<date>>")
     (rev "<<version>>")
     (comment 4 "<<hash>>")
   )
