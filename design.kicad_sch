@@ -1908,7 +1908,7 @@
   (symbol (lib_id "power:+3.3V") (at 244.475 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 10960125-f5d3-4f7c-8b77-9cd9124e6ca3)
-    (property "Reference" "#PWR?" (id 0) (at 244.475 132.08 0)
+    (property "Reference" "#PWR0126" (id 0) (at 244.475 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 244.475 122.555 0))
@@ -2136,7 +2136,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.49 133.985 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 52f2afaf-d838-4cf3-b173-2a3c422559ac)
-    (property "Reference" "C?" (id 0) (at 239.395 132.715 0)
+    (property "Reference" "C13" (id 0) (at 239.395 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 239.395 135.255 0)
@@ -2547,7 +2547,7 @@
   (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 226.06 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ad0d0798-3677-4868-b360-d7f8762b6e0c)
-    (property "Reference" "U?" (id 0) (at 226.06 121.285 0))
+    (property "Reference" "U4" (id 0) (at 226.06 121.285 0))
     (property "Value" "MCP1700T-3302E" (id 1) (at 226.06 123.825 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 226.06 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2684,7 +2684,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 133.985 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c44c2db8-4ba0-4612-a365-cdf0c217b601)
-    (property "Reference" "C?" (id 0) (at 215.9 132.715 0)
+    (property "Reference" "C12" (id 0) (at 215.9 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (id 1) (at 215.9 135.255 0)
@@ -2785,7 +2785,7 @@
   (symbol (lib_id "power:GND") (at 237.49 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e48e62da-a82e-4af6-87a5-4856bf756a8f)
-    (property "Reference" "#PWR?" (id 0) (at 237.49 147.32 0)
+    (property "Reference" "#PWR0125" (id 0) (at 237.49 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 237.49 145.415 0))
@@ -2947,7 +2947,7 @@
   (symbol (lib_id "power:VCC") (at 207.01 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff60fb19-afa6-4094-aadb-2fbb7283cdc9)
-    (property "Reference" "#PWR?" (id 0) (at 207.01 132.08 0)
+    (property "Reference" "#PWR0124" (id 0) (at 207.01 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 207.01 123.19 0))
@@ -3034,14 +3034,14 @@
     (path "/03f1b7d7-69ce-426d-977b-735fd429e8c5"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
-    (path "/10960125-f5d3-4f7c-8b77-9cd9124e6ca3"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    (path "/ff60fb19-afa6-4094-aadb-2fbb7283cdc9"
+      (reference "#PWR0124") (unit 1) (value "VCC") (footprint "")
     )
     (path "/e48e62da-a82e-4af6-87a5-4856bf756a8f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ff60fb19-afa6-4094-aadb-2fbb7283cdc9"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    (path "/10960125-f5d3-4f7c-8b77-9cd9124e6ca3"
+      (reference "#PWR0126") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/f840b762-87cb-4a72-9780-ad2fe364c8c2"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3076,11 +3076,11 @@
     (path "/a28e7de6-b02a-4ea2-87fa-64f4f8b35b55"
       (reference "C11") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/52f2afaf-d838-4cf3-b173-2a3c422559ac"
-      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
     (path "/c44c2db8-4ba0-4612-a365-cdf0c217b601"
-      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C12") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/52f2afaf-d838-4cf3-b173-2a3c422559ac"
+      (reference "C13") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/84f91f18-93b9-4640-b399-413cf4103af7"
       (reference "J1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal")
@@ -3137,7 +3137,7 @@
       (reference "U3") (unit 1) (value "ESP32-C3-WROOM-02-N4") (footprint "MCU_Espressif_custom:MODULE_ESP32-C3-WROOM-02-H4")
     )
     (path "/ad0d0798-3677-4868-b360-d7f8762b6e0c"
-      (reference "U?") (unit 1) (value "MCP1700T-3302E") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U4") (unit 1) (value "MCP1700T-3302E") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
   )
 )
