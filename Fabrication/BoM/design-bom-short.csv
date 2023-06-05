@@ -1,10 +1,17 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,STANDARD,PARTREV,MAXIMUM_PACKAGE_HEIGHT,MANUFACTURER
-1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4,C_Small,C_0805_2012Metric,4, ,~,,,,
-2,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J1 J2,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,2, ,~,,,,
-3,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J3 J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,2, ,~,,,,
-4,"Inductor, small symbol",L_Small,L1,L_Small,L_1008_2520Metric,1, ,~,,,,
-5,"Resistor, small symbol",R_Small,R1 R2,R_Small,R_0805_2012Metric,2, ,~,,,,
-6,,TPS61099YFFT,U1,TPS61099YFFT,BGA6N40P3X2_122X88X62N,1, ,,IPC 7351B,K,0.625mm,Texas Instruments
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,MF,AVAILABILITY,PRICE,PACKAGE,MP,PURCHASE-URL
+1,"Unpolarized capacitor, small symbol",C_Small,C2 C5 C9,0.1uF,C_0805_2012Metric,3, ,~,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C3 C7 C11 C12 C13,1uF,C_0805_2012Metric,5, ,~,,,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C1 C6 C10,10uF,C_0805_2012Metric,3, ,~,,,,,,
+4,"Polarized capacitor, small symbol",C_Polarized_Small,C4 C8,120uF,CP_Radial_D8.0mm_P5.00mm,2, ,~,,,,,,
+5,USB Full-Featured Type-C Receptacle connector,USB_C_Receptacle,J2,HRO_TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,,,,
+6,USB Type A connector,USB_A,J1 J3,USB_A,USB_A_Stewart_SS-52100-001_Horizontal,2, , ~,,,,,,
+7,"Resistor, small symbol",R_Small,R1 R2,5.1k,R_0805_2012Metric,2, ,~,,,,,,
+8,"Resistor, small symbol",R_Small,R3 R4 R5 R6 R7 R8 R9 R10,10K,R_0805_2012Metric,8, ,~,,,,,,
+9,"Push button switch, generic, two pins",SW_Push,SW1,EN,SW_SPST_EVPBF,1, ,~,,,,,,
+10,"Push button switch, generic, two pins",SW_Push,SW2,IO9,SW_SPST_EVPBF,1, ,~,,,,,,
+11,"Current limited 2.5A power switch, single channel, SOT-23-5",AP22804AW5,U1 U2,AP22804AW5,SOT-23-5,2, ,https://www.diodes.com/assets/Datasheets/AP22804_14.pdf,,,,,,
+12,"WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C",ESP32-C3-WROOM-02-N4,U3,ESP32-C3-WROOM-02-N4,MODULE_ESP32-C3-WROOM-02-H4,1, ,,Espressif Systems,In Stock,None,Package,ESP32-C3-WROOM-02-H4,https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda
+13,"250mA Low Quiscent Current LDO, 3.3V output, SOT-23",MCP1700-3302E_SOT23,U4,MCP1700T-3302E,SOT-23,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf,,,,,,
 
 
 
