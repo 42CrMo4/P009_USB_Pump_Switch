@@ -1,6 +1,6 @@
 # P009 USB Pump Switch
 
-Home Assistant controlled ESP32-c3 USB Switch for "dump" USB Pumps for smale scale gardening. 
+Home Assistant controlled ESP32-c3 USB Switch for "dump" USB Pumps for small scale gardening. 
 
 ## Description
 
